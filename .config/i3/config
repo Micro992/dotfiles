@@ -18,6 +18,8 @@ exec_always sxhkd
 exec --no-startup-id sxhkd
 # is used in the bar {} block below.
 font pango:Meslo LGM Nerd Font 14
+# floating window for Tk in python
+for_window [class="Tk"] floating enable
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
