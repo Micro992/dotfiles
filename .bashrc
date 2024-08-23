@@ -31,8 +31,13 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias c='clear'
 alias du='du -h --max-depth=1'
+alias pyrun='python3'
+alias fun='fortune | cowsay -r'
+# git shortcut
 alias gl='git log --oneline --graph --all'
-alias gcm='git commit -m'
+alias gs='git status'
+alias gc='git commit -m'
+alias gp='git push origin main'
 
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
