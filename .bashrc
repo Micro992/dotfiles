@@ -5,11 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-
 EDITOR='nvim'
-
 
 source /usr/share/git/completion/git-prompt.sh
 parse_git_bg() {
@@ -30,6 +26,14 @@ alias inv='nvim $(fzf --preview="bat --color=always {}")'
 alias invm='nvim $(fzf -m --preview="bat --color=always {}")'
 alias ll='ls -la'
 alias network='nmtui'
+alias tmux="tmux -2"
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias c='clear'
+alias du='du -h --max-depth=1'
+alias gl='git log --oneline --graph --all'
+alias gcm='git commit -m'
+
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
 
