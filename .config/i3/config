@@ -30,18 +30,6 @@ bindsym $mod+t exec nautilus
 # floating window for Tk in python
 for_window [class="Tk"] floating enable
 
-# Gaps between windows
-gaps inner 10
-gaps outer 3
-
-#for border
-for_window [class=".*"] border pixel 3
-
-# Border colors
-client.focused          #D3D3D3 #D3D3D3 #D3D3D3 #D3D3D3 #D3D3D3
-client.unfocused        #2E2E2E #2E2E2E #2E2E2E #2E2E2E #2E2E2E
-client.focused_inactive #2E2E2E #2E2E2E #2E2E2E #2E2E2E #2E2E2E
-
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 

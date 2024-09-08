@@ -28,6 +28,10 @@ sudo pacman -S kitty
 ````
 sudo pacman -S yazi
 ````
+### neofetch
+````
+sudo pacman -S neoftech 
+````
 ## Installtion 
 ````
 $ git clone https://github.com/Micro992/dotfiles.git 
@@ -39,4 +43,4 @@ then use GNU stow to create symliks
 $ stow .
 ```
 
-for explain watch this "https://youtu.be/y6XCebnB9gs?si=qRYYzajmNjlwC0Ov"
+ - [for more details watch this](https://youtu.be/y6XCebnB9gs?si=qRYYzajmNjlwC0Ov)
