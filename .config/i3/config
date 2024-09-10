@@ -21,6 +21,7 @@ font pango:Meslo LGM Nerd Font 14
 exec_always ~/.config/polybar/launch.sh
 exec_always feh --bg-scale ~/Downloads/wallpaper-arch.png
 exec --no-startup-id fcitx5
+exec_always --no-startup-id copyq
 bindsym $mod+space exec ~/.config/rofi/scripts/launcher_t2
 bindsym $mod+shift+f exec flameshot gui
 bindsym $mod+shift+semicolon  exec firefox
