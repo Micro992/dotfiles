@@ -41,6 +41,7 @@ alias gp='git push origin main'
 
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
-
+# Set up Zoxide 
+eval "$(zoxide init --cmd cd bash)"
 
 . "$HOME/.cargo/env"
