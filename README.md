@@ -4,33 +4,25 @@ how to setup dotfiles
 
 ## first install those packages!
 
-### i3 
-``````
-sudo pacman -S i3
-``````
-### git
+### for i3 
 ```
-sudo pacman -S git 
+sudo pacman -S i3 git stow yazi alacritty neofetch polybar flamshot networkmanager network-manager-applet feh 
 ```
-### stow
+
+### for hyprland
 ```
-sudo pacman -S stow
+sudo pacman -S hyprland hyprpaper hyprlock hypridle hyprshot waybar networkmanager network-manager-applet sddm wofi  
 ```
-### polybar 
+### optinal
+
 ```
-sudo pacman -S polybar
+sudo pacman -S blueman curl fzf htop imv keepassxc lxappearnce mpv ncdu nm-connection-editor obsidian pavucontrol rclone telegram-desktop tldr tmux tor which yazi nautilus zip zoxide zsh     
 ```
-### kitty
+### for AUR 
 ```
-sudo pacman -S kitty
+yay -S swaync wlogout brave-bin cava hyprshot zen-browser-bin visual-studio-code-bin spotube-bin sddm-catppuccin-git archlinux-tweak-tool-git  
 ```
-### yazi 
-````
-sudo pacman -S yazi
-````
-### neofetch
-````
-sudo pacman -S neoftech 
+
 ````
 ## Installtion 
 ````
