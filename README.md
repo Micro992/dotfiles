@@ -22,8 +22,6 @@ sudo pacman -S blueman curl fzf htop imv keepassxc lxappearnce mpv ncdu nm-conne
 ```
 yay -S swaync wlogout brave-bin cava hyprshot zen-browser-bin visual-studio-code-bin spotube-bin sddm-catppuccin-git archlinux-tweak-tool-git  
 ```
-
-````
 ## Installtion 
 ````
 $ git clone https://github.com/Micro992/dotfiles.git 
