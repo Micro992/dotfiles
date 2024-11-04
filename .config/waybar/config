@@ -1,0 +1,66 @@
+// __        __          _                 
+// \ \      / /_ _ _   _| |__   __ _ _ __  
+//  \ \ /\ / / _` | | | | '_ \ / _` | '__| 
+//   \ V  V / (_| | |_| | |_) | (_| | |    
+//    \_/\_/ \__,_|\__, |_.__/ \__,_|_|    
+//                 |___/                   
+// 
+// ----------------------------------------------------- 
+//
+{
+
+    // General Settings
+    "layer": "top",
+    "margin-bottom": 0,
+    "layer": "top",
+    "margin-left": 0,
+    "margin-right": 0,
+    "spacing": 0,
+
+    // Position TOP
+    "layer": "top",
+    "margin-bottom": 2,
+    "margin-left": 20,
+    "margin-right": 20,
+    "margin-top": 12,
+    // Position BOTTOM
+    // "position": "bottom",
+    // "margin-top": 0,
+    // "margin-bottom": 14,
+
+    "layer": "top",
+    "margin-left": 15,
+    "margin-right": 15,
+    "spacing": 0,
+   
+    // Load Modules
+    "include": [
+        ".config/waybar/modules.json",
+    ],
+
+    // Modules Left
+    "modules-left": [
+    "hyprland/workspaces",
+    "hyprland/window",
+    ],
+    
+    // Modules Center 
+    "modules-center": [
+        "clock"
+    ],
+    
+    // Modules Right 
+    "modules-right": [
+        "pulseaudio",
+        "backlight",
+        "network",
+    //  "group/hardware",
+        "cpu",
+        "memory",
+        "battery",
+        "tray",
+        "custom/power",
+    ],
+
+}
+
