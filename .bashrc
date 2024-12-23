@@ -24,8 +24,8 @@ neofetch
 
 alias inv='nvim $(fzf --preview="bat --color=always {}")'
 alias invm='nvim $(fzf -m --preview="bat --color=always {}")'
-alias ll='ls -la'
-alias ls='ls --color=auto'
+alias ll='eza -la --icons'
+alias ls='eza --icons'
 alias grep='grep --color=auto'
 alias c='clear'
 alias du='du -h --max-depth=1'
@@ -43,3 +43,7 @@ eval "$(fzf --bash)"
 eval "$(zoxide init --cmd cd bash)"
 
 . "$HOME/.cargo/env"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH

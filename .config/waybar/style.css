@@ -16,6 +16,7 @@
  * Import Pywal colors
  * ----------------------------------------------------- */
 /* @import 'style-light.css'; */
+
 @define-color backgroundlight #FFFFFF;
 @define-color backgrounddark #FFFFFF;
 @define-color workspacesbackground1 #FFFFFF;
@@ -30,7 +31,6 @@
 /* -----------------------------------------------------
  * General
  * ----------------------------------------------------- */
-
 
 * {
     font-family: "Fira Sans Semibold", "Font Awesome 6 Free", FontAwesome, awesomefont, Roboto, Helvetica, Arial, "fontawesome-free-6.6.0", sans-serif;
@@ -244,13 +244,16 @@ window#waybar.empty #window {
  * Custom Exit
  * ----------------------------------------------------- */
 
-#custom-exit {
+#custom-power{
     margin: 0px 20px 0px 0px;
     padding:0px;
     font-size:20px;
     color: @iconcolor;
 }
 
+#custom-power:hover {
+    color: #00bcd4; 
+}
 
 /* -----------------------------------------------------
  * Hardware Group
@@ -300,7 +303,7 @@ window#waybar.empty #window {
     color: @textcolor0;
     border-radius: 15px;
     padding: 2px 0px 0px 0px;
-    margin: 10px -0px 10px 5px;
+    margin: 10px 0px 10px 5px;
 
 }
 
@@ -427,22 +430,6 @@ window#waybar.empty #window {
     color: #00bcd4;
 }
 
-
-/* -----------------------------------------------------
- * Power
- * ----------------------------------------------------- */
-
-#custom-power{
-    margin: 0px 20px 0px 0px;
-    padding:0px;
-    font-size:20px;
-    color: @iconcolor;
-}
-
-#custom-power:hover {
-    color: #00bcd4; /* Adjust hover color */
-}
-
 /* -----------------------------------------------------
  * Other
  * ----------------------------------------------------- */
@@ -459,4 +446,3 @@ label:focus {
 #network.disconnected {
     background-color: #f53c3c;
 }
-

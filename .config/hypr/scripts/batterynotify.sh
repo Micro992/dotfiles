@@ -35,9 +35,6 @@ while (( "$#" )); do  # Parse command-line arguments and defaults
   esac
 done
 
-notify-send "Battery Notify Script Running"
-
-
 is_laptop() { # Check if the system is a laptop
     if grep -q "Battery" /sys/class/power_supply/BAT*/type; then
         return 0  # It's a laptop
