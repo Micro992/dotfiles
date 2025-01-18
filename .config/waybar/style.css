@@ -266,8 +266,14 @@ window#waybar.empty #window {
     color:@iconcolor;
 }
 
-#language {
-    margin-right:10px;
+/* -----------------------------------------------------
+ * Language
+ * ----------------------------------------------------- */
+#language{
+    margin: 0px 20px 0px 0px;
+    padding:0px;
+    font-size:15px;
+    color: @iconcolor;
 }
 
 /* -----------------------------------------------------

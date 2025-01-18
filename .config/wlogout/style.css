@@ -33,6 +33,7 @@ window {
 }
 
 button {
+    border: none;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20%;

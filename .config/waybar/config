@@ -60,6 +60,7 @@
         "battery",
         "tray",
         "custom/power",
+        "hyprland/language",
     ],
 
 }
