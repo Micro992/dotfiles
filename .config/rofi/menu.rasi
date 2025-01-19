@@ -23,7 +23,7 @@ window {
     border:           3px;
     background-color: @bg-col;
     border-radius:    35px;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 0px 0px 0px;
     background-color: @bg-col;
     border-color:     @border-col;
 }
@@ -67,7 +67,7 @@ entry {
 listview {
     border: 0px 0px 0px;
     padding: 4px 0px 4px;
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 25px;
     columns: 1;
     lines: 5;
     background-color: @bg-col;
