@@ -198,15 +198,6 @@ window#waybar.empty #window {
      margin-right:15px;
 }
 
-#custom-ml4w-welcome {
-    margin-right: 12px;
-    background-image: url("../assets/ml4w-icon.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; 
-    padding-right: 24px;
-}
-
 /* -----------------------------------------------------
  * Idle Inhibator
  * ----------------------------------------------------- */
@@ -258,12 +249,29 @@ window#waybar.empty #window {
 /* -----------------------------------------------------
  * Hardware Group
  * ----------------------------------------------------- */
+ 
+#cpu {
+    font-size: 16px;
+    color: @textcolor0;
+    border-radius: 15px;
+    padding: 0px 0px 0px 10px;
+    margin: 10px 0px 10px 0px;
+}
 
- #disk,#memory,#cpu,#language {
-    margin:0px;
-    padding:0px;
-    font-size:16px;
-    color:@iconcolor;
+#cpu:hover { 
+    background: #2d1443;
+}
+
+#memory {
+    font-size: 16px;
+    color: @textcolor0;
+    border-radius: 15px;
+    padding: 0px 0px 0px 10px;
+    margin: 10px 5px 10px 0px;
+}
+
+#memory:hover { 
+    background: #2d1443;
 }
 
 /* -----------------------------------------------------
@@ -328,6 +336,11 @@ window#waybar.empty #window {
     border-radius: 15px;
     padding: 2px 10px 0px 10px;
     margin: 10px 5px 10px 5px;
+}
+
+#network:hover { 
+    color: #1E1D2F;
+    background: #2d1443;
 }
 
 #network.ethernet {
