@@ -6,10 +6,9 @@ that is my horrible dotfiles and it's my first rice.
 
 ### ![wow](https://github.com/Micro992/dotfiles/blob/main/showcase/2025-01-22-194027_hyprshot.png)
 
-### ![wow](https://github.com/Micro992/dotfiles/blob/main/showcase/hyprland-showcase.mp4)
+<video src="https://github.com/user-attachments/assets/adda7d7a-988b-4430-a978-2ee981d3761c" width="720" height="352" loop></video>
 
-
-### ![wow](https://github.com/Micro992/dotfiles/blob/main/showcase/my-sucks-rice.mp4)
+<video src="https://github.com/user-attachments/assets/7a022027-b548-4b89-92db-2cb1c6b56423" width="720" height="352" loop></video>
 
 
 # Installation for Arch linux
