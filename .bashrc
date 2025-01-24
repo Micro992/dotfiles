@@ -18,7 +18,7 @@ parse_git_bg() {
 }
 PS1='\[\033[0;32m\]\u\[\033[0;34m\]@\[\033[0;34m\]\h \w\[$(parse_git_bg)\]$(__git_ps1)\n\[\033[0;32m\]\$ \[\033[0m\]'
 
-neofetch
+#neofetch
 
 # shortcut for commands
 
