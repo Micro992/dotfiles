@@ -1,58 +1,63 @@
-# Micro's sucks dotfiles 
+# Micro's Sucks Dotfiles
+
 that is my horrible dotfiles and it's my first rice.
 
-## Showcase 
+## Showcase
 
+### Screenshot
+![Wow](https://github.com/Micro992/dotfiles/blob/main/showcase/2025-01-22-194027_hyprshot.png)
 
-### ![wow](https://github.com/Micro992/dotfiles/blob/main/showcase/2025-01-22-194027_hyprshot.png)
-
+### Videos
 <video src="https://github.com/user-attachments/assets/adda7d7a-988b-4430-a978-2ee981d3761c" width="720" height="352" loop></video>
 
 <video src="https://github.com/user-attachments/assets/7a022027-b548-4b89-92db-2cb1c6b56423" width="720" height="352" loop></video>
 
+---
 
-# Installation for Arch linux
+## Installation for Arch Linux
 
-1. First install these packages. *(some are optional)*
+### Step 1: Install Required Packages
 
-For pacman:
+#### Using Pacman *(some are optional)*:
 ```bash
-sudo pacman -S hyprland hyprpaper hyprlock hypridle hyprshot waybar networkmanager network-manager-applet sddm rofi-wayland
-brightnessctl btop evince eza discord blueman fastfetch keepassxc kitty lxappearance imv mpv nvim git
-fzf nwg-look obsidian pavucontrol vim power-profiles-daemon stow steam tldr swaync timeshift yazi zoxide vlc rclone ncdu kdenlive telegram-desktop bat chafa fd acpi
-
+sudo pacman -S hyprland hyprpaper hyprlock hypridle waybar networkmanager network-manager-applet \
+  sddm rofi-wayland brightnessctl btop evince eza discord blueman fastfetch keepassxc kitty lxappearance \
+  imv mpv git fzf nwg-look obsidian pavucontrol vim power-profiles-daemon stow steam tldr swaync \
+  timeshift yazi zoxide vlc rclone ncdu kdenlive telegram-desktop bat chafa fd acpi
 ```
-For yay:
+
+#### Using Yay:
 ```bash
-yay -S brave-bin nvim-lazy sddm-catppuccin-git wlogout ani-cli
-cava unimatrix-git visual-studio-code-bin spotube-bin   
-
+yay -S brave-bin nvim-lazy sddm-catppuccin-git wlogout ani-cli cava unimatrix-git \
+  visual-studio-code-bin spotube-bin hyprshot
 ```
-2. Clone the repo
 
+### Step 2: Clone the Repository
 ```bash
 git clone https://github.com/Micro992/dotfiles.git
 cd dotfiles
 stow .
 ```
 
-3. Install the fonts 
-```bash 
+### Step 3: Install Fonts
+```bash
 cd dotfiles
 chmod +x install_fonts.sh
 ./install_fonts.sh
 ```
 
-4. Install icons and themes
+### Step 4: Install Icons and Themes
 ```bash
 cd ~/dotfiles/.icons
 tar -xvzf .icons.tar.gz -C ~/dotfiles/
 ```
-After installing the icons and the themes, You should use nwg-look And lxappearance to chnage the thmese and iocns you like :3
 
-## Original work
+After installing the icons and themes, use **nwg-look** and **lxappearance** to apply your preferred themes and icons. :3
 
-i dont know, everything is steal even the files name,
-please don't arrest me :(
+---
 
-For more information [click](https://youtu.be/dQw4w9WgXcQ?si=ZrDJTd_g6KlbpkYz)
+## Original Work
+I don’t know... everything is stolen, even the file names. Please don’t arrest me. :(
+
+For more information, [click here](https://youtu.be/dQw4w9WgXcQ?si=ZrDJTd_g6KlbpkYz).
+
