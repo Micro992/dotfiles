@@ -4,12 +4,12 @@ that is my horrible dotfiles and it's my first rice.
 ## Showcase 
 
 
-### ![wow](https://github.com/Micro992/dotfiles/blob/main/wallpapers/cute-girl.pnghttps://github.com/Micro992/dotfiles/blob/main/showcase/2025-01-22-194027_hyprshot.png)
+### ![wow](https://github.com/Micro992/dotfiles/blob/main/showcase/2025-01-22-194027_hyprshot.png)
 
-### ![wow](https://github.com/Micro992/dotfiles/blob/main/wallpapers/cute-girl.pnghttps://github.com/Micro992/dotfiles/blob/main/showcase/hyprland-showcase.mp4)
+### ![wow](https://github.com/Micro992/dotfiles/blob/main/showcase/hyprland-showcase.mp4)
 
 
-### ![wow](https://github.com/Micro992/dotfiles/blob/main/wallpapers/cute-girl.pnghttps://github.com/Micro992/dotfiles/blob/main/showcase/my-sucks-rice.mp4)
+### ![wow](https://github.com/Micro992/dotfiles/blob/main/showcase/my-sucks-rice.mp4)
 
 
 # Installation for Arch linux
