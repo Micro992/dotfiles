@@ -6,6 +6,7 @@ fonts=(
     "otf-font-awesome"
     "noto-fonts"
     "noto-fonts-emoji"
+    "ttf-meslo-nerd"
     "ttf-fira-sans"
     "ttf-fira-mono"
     "ttf-roboto"
@@ -51,8 +52,4 @@ else
   fc-cache -fv
   echo "You installed and updated the fonts successfully"
 fi
-
-
-
-
 

@@ -23,7 +23,7 @@ that is my horrible dotfiles and it's my first rice.
 sudo pacman -S hyprland hyprpaper hyprlock hypridle waybar networkmanager network-manager-applet \
   sddm rofi-wayland brightnessctl btop evince eza discord blueman fastfetch keepassxc kitty lxappearance \
   imv mpv git fzf nwg-look obsidian pavucontrol vim power-profiles-daemon stow steam tldr swaync \
-  timeshift yazi zoxide vlc rclone ncdu kdenlive telegram-desktop bat chafa fd acpi
+  timeshift yazi zoxide vlc rclone ncdu kdenlive telegram-desktop bat chafa fd acpi ripgrep
 ```
 
 #### Using Yay:
