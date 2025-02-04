@@ -1,6 +1,6 @@
-# Micro's Sucks Dotfiles
+# Micro's Sucks Dotfiles 🐀
 
-that is my horrible dotfiles and it's my first rice.
+My first (probably terrible) Hyprland rice.
 
 ## Showcase
 
@@ -21,14 +21,14 @@ that is my horrible dotfiles and it's my first rice.
 #### Using Pacman *(some are optional)*:
 ```bash
 sudo pacman -S hyprland hyprpaper hyprlock hypridle waybar networkmanager network-manager-applet \
-  sddm rofi-wayland brightnessctl btop evince eza discord blueman fastfetch keepassxc kitty lxappearance \
-  imv mpv git fzf nwg-look obsidian pavucontrol vim power-profiles-daemon stow steam tldr swaync \
-  timeshift yazi zoxide vlc rclone ncdu kdenlive telegram-desktop bat chafa fd acpi ripgrep
+  sddm rofi-wayland btop evince eza discord blueman fastfetch keepassxc kitty brightnessctl \
+  imv mpv git fzf nwg-look obsidian pavucontrol vim stow steam tldr swaync \
+  yazi zoxide vlc rclone ncdu kdenlive telegram-desktop bat fd acpi ripgrep
 ```
 
 #### Using Yay:
 ```bash
-yay -S brave-bin nvim-lazy sddm-catppuccin-git wlogout ani-cli cava unimatrix-git \
+yay -S brave-bin nvim-lazy sddm-catppuccin-git wlogout ani-cli cava \
   visual-studio-code-bin spotube-bin hyprshot
 ```
 
@@ -52,7 +52,7 @@ cd ~/dotfiles/.icons
 tar -xvzf .icons.tar.gz -C ~/dotfiles/
 ```
 
-After installing the icons and themes, use **nwg-look** and **lxappearance** to apply your preferred themes and icons. :3
+After installing the icons and themes, use **nwg-look** to apply your preferred themes and icons. :3
 
 ---
 

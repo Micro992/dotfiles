@@ -2,17 +2,14 @@
 
 # List of font names
 fonts=(
-    "ttf-fira-sans"
-    "otf-font-awesome"
     "noto-fonts"
     "noto-fonts-emoji"
     "ttf-meslo-nerd"
     "ttf-fira-sans"
-    "ttf-fira-mono"
     "ttf-roboto"
     "ttf-liberation"
-    "ttf-freefont"
-    "ttf-droid"
+    "ttf-fira-code"
+    "ttf-font-awesome"
 )
 
 # Install fonts using pacman
@@ -26,8 +23,8 @@ done
 
 # Install AUR fonts using yay
 aur_fonts=(
-    "nerd-fonts-jetbrains-mono"
-    "nerd-fonts-fira-code"
+    "ttf-jetbrains-mono"
+    "ttf-ms-fonts"
 )
 
 for aur_font in "${aur_fonts[@]}"; do
