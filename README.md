@@ -18,25 +18,24 @@ My first (probably terrible) Hyprland rice.
 
 ### Step 1: Install Required Packages
 
-#### Using Pacman *(some are optional)*:
+#### Using Pacman:
 ```bash
 sudo pacman -S hyprland hyprpaper hyprlock hypridle waybar networkmanager network-manager-applet \
-  sddm rofi-wayland btop evince eza discord blueman fastfetch keepassxc kitty brightnessctl \
-  imv mpv git fzf nwg-look obsidian pavucontrol vim stow steam tldr swaync \
-  yazi zoxide vlc rclone ncdu kdenlive telegram-desktop bat fd acpi ripgrep
+  sddm rofi-wayland btop evince eza blueman fastfetch keepassxc kitty brightnessctl \
+  imv mpv git fzf nwg-look obsidian pavucontrol vim stow tldr swaync nemo \
+  yazi zoxide vlc rclone ncdu telegram-desktop bat fd acpi ripgrep
 ```
 
 #### Using Yay:
 ```bash
-yay -S brave-bin nvim-lazy sddm-catppuccin-git wlogout ani-cli cava \
-  visual-studio-code-bin spotube-bin hyprshot
+yay -S brave-bin nvim-lazy sddm-catppuccin-git wlogout ani-cli cava hyprshot
 ```
 
 ### Step 2: Clone the Repository
 ```bash
 git clone https://github.com/Micro992/dotfiles.git
 cd dotfiles
-stow .
+stow --adopt . #(Use with care!)
 ```
 
 ### Step 3: Install Fonts

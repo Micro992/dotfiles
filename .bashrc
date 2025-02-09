@@ -47,8 +47,6 @@ eval "$(fzf --bash)"
 # Set up Zoxide 
 eval "$(zoxide init --cmd cd bash)"
 
-. "$HOME/.cargo/env"
-
 # hope my girl won't see this ;)
 cheat() {
   curl "https://cheat.sh/$1"
