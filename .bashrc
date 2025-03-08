@@ -7,7 +7,7 @@
 
 export VISUAL='nvim'
 export EDITOR='nvim'
-
+export MANPAGER='nvim +Man!'
 source /usr/share/git/completion/git-prompt.sh
 parse_git_bg() {
   if git rev-parse --git-dir > /dev/null 2>&1; then
@@ -23,8 +23,6 @@ parse_git_bg() {
 
 PS1='\[\033[0;32m\]\[\033[0;34m\]\[\033[0;34m\] \w\[$(parse_git_bg)\]$(__git_ps1)\n\[\033[0;35m\]\$ \[\033[0m\]'
 
-#neofetch
-
 # shortcut for commands
 
 alias inv='nvim $(fzf --preview="bat --color=always {}")'
@@ -36,7 +34,9 @@ alias c='clear'
 alias du='du -h --max-depth=1'
 alias pyrun='python3'
 alias fun='fortune | cowsay -r'
+alias notes="cd ~/notes/ && nvim"
 # git shortcut
+
 alias gl='git log --graph --pretty=format:"%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
 alias gs='git status'
 alias gc='git commit -m'
