@@ -23,12 +23,18 @@ My first (probably terrible) Hyprland rice.
 sudo pacman -S hyprland hyprpaper hyprlock hypridle waybar networkmanager network-manager-applet \
   sddm rofi-wayland btop evince eza blueman fastfetch keepassxc kitty brightnessctl \
   imv mpv git fzf nwg-look obsidian pavucontrol vim stow tldr swaync nemo \
-  yazi zoxide vlc rclone ncdu telegram-desktop bat fd acpi ripgrep
+  yazi zoxide vlc rclone ncdu bat fd acpi ripgrep
 ```
 
 #### Using Yay:
 ```bash
 yay -S brave-bin nvim-lazy sddm-catppuccin-git wlogout ani-cli cava hyprshot
+```
+#### Using Flatpak:
+```bash
+chmod +x install_apps.sh
+./install_apps.sh
+
 ```
 
 ### Step 2: Clone the Repository

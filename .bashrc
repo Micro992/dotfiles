@@ -24,19 +24,19 @@ parse_git_bg() {
 PS1='\[\033[0;32m\]\[\033[0;34m\]\[\033[0;34m\] \w\[$(parse_git_bg)\]$(__git_ps1)\n\[\033[0;35m\]\$ \[\033[0m\]'
 
 # shortcut for commands
-
 alias inv='nvim $(fzf --preview="bat --color=always {}")'
 alias invm='nvim $(fzf -m --preview="bat --color=always {}")'
 alias ll='eza -la --icons'
 alias ls='eza --icons'
+alias la='ls -A'
 alias grep='grep --color=auto'
 alias c='clear'
 alias du='du -h --max-depth=1'
 alias pyrun='python3'
 alias fun='fortune | cowsay -r'
 alias notes="cd ~/notes/ && nvim"
-# git shortcut
 
+# git shortcut
 alias gl='git log --graph --pretty=format:"%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
 alias gs='git status'
 alias gc='git commit -m'
@@ -47,7 +47,7 @@ eval "$(fzf --bash)"
 # Set up Zoxide 
 eval "$(zoxide init --cmd cd bash)"
 
-# hope my girl won't see this ;)
+# I hope my girl won't see this ;)
 cheat() {
   curl "https://cheat.sh/$1"
 }
