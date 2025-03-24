@@ -48,7 +48,7 @@
    // Clock
     "clock": {
         "format": "{:%H:%M %a}",
-        "on-click": "gjs ~/.config/waybar/scripts/calendar.js",
+        "on-click": "",
         "tooltip": false
     },
 

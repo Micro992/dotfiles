@@ -21,7 +21,7 @@ My first (probably terrible) Hyprland rice.
 #### Using Pacman:
 ```bash
 sudo pacman -S hyprland hyprpaper hyprlock hypridle waybar networkmanager network-manager-applet \
-  sddm rofi-wayland btop evince eza blueman fastfetch keepassxc kitty brightnessctl \
+  sddm rofi-wayland btop eza blueman fastfetch keepassxc kitty brightnessctl \
   imv mpv git fzf nwg-look obsidian pavucontrol vim stow tldr swaync nemo \
   yazi zoxide vlc rclone ncdu bat fd acpi ripgrep
 ```
@@ -32,6 +32,7 @@ yay -S brave-bin nvim-lazy sddm-catppuccin-git wlogout ani-cli cava hyprshot
 ```
 #### Using Flatpak:
 ```bash
+cd ~/dotfiles/scripts
 chmod +x install_apps.sh
 ./install_apps.sh
 
@@ -46,7 +47,7 @@ stow --adopt . #(Use with care!)
 
 ### Step 3: Install Fonts
 ```bash
-cd dotfiles
+cd ~/dotfiles/scripts
 chmod +x install_fonts.sh
 ./install_fonts.sh
 ```
