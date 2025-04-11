@@ -22,13 +22,14 @@ My first (probably terrible) Hyprland rice.
 ```bash
 sudo pacman -S hyprland hyprpaper hyprlock hypridle waybar networkmanager network-manager-applet \
   sddm rofi-wayland btop eza blueman fastfetch keepassxc kitty brightnessctl \
-  imv mpv git fzf nwg-look obsidian pavucontrol vim stow tldr swaync nemo \
-  yazi zoxide vlc rclone ncdu bat fd acpi ripgrep
+  imv mpv git fzf nwg-look obsidian pavucontrol vim stow tealdeer swaync nemo \
+  yazi zoxide vlc rclone ncdu bat fd acpi ripgrep --noconfirm
+ 
 ```
 
 #### Using Yay:
 ```bash
-yay -S brave-bin nvim-lazy sddm-catppuccin-git wlogout ani-cli cava hyprshot
+yay -S brave-bin nvim-lazy sddm-catppuccin-git wlogout ani-cli cava hyprshot --noconfirm
 ```
 #### Using Flatpak:
 ```bash

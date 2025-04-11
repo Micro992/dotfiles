@@ -15,7 +15,7 @@ fonts=(
 # Install fonts using pacman
 for font in "${fonts[@]}"; do
     if pacman -Ss "^$font" > /dev/null 2>&1; then
-        sudo pacman -S --needed "$font"
+        sudo pacman -S --needed --noconfirm "$font"
     else
         echo "Font $font not found in pacman repositories."
     fi
