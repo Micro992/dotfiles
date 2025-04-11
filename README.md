@@ -24,8 +24,7 @@ sudo pacman -S hyprland hyprpaper hyprlock hypridle waybar networkmanager networ
   sddm rofi-wayland btop eza blueman fastfetch keepassxc kitty brightnessctl \
   imv mpv git fzf nwg-look obsidian pavucontrol vim stow tealdeer swaync nemo \
   yazi zoxide vlc rclone ncdu bat fd acpi ripgrep --noconfirm
- 
-```
+ ```
 
 #### Using Yay:
 ```bash
