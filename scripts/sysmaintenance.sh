@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 echo -e "\n=== System Update ==="
-yay -Syyu
+yay -Syu --noconfirm
 
 echo -e "\nClearing pacman cache"
 pacman_cache_space_used="$(du -sh /var/cache/pacman/pkg/ 2>/dev/null)"
@@ -9,7 +9,7 @@ paccache -r
 echo "Space saved: $pacman_cache_space_used" 
 
 echo -e "\nRemoving orphan packages"
-yay -Qdtq | yay -Rns -
+yay -Qdtq | yay -Rns --noconfirm -
 
 echo "Clearing ~/.cache"
 home_cache_used="$(du -sh ~/.cache ~/.var/app/*/cache/* 2>/dev/null)"

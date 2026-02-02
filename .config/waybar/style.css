@@ -236,7 +236,7 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #custom-power{
-    margin: 0px 20px 0px 0px;
+    margin: 0px 10px 0px 0px;
     padding:0px;
     font-size:20px;
     color: @iconcolor;
@@ -324,6 +324,10 @@ window#waybar.empty #window {
 #pulseaudio.muted {
     background-color: @backgrounddark;
     color: @textcolor1;
+}
+
+#pulseaudio:hover {
+    color: #00bcd4; 
 }
 
 /* -----------------------------------------------------

@@ -52,6 +52,5 @@ cheat() {
   curl "https://cheat.sh/$1"
 }
 
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH=$BUN_INSTALL/bin:$PATH
+# BIN
+export PATH="$HOME/bin:$PATH"

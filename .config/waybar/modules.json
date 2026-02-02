@@ -16,9 +16,9 @@
         "all-outputs": true,
         "format": "{}",
         "format-icons": {
-			"urgent": "",
-			"active": "",
-			"default": ""
+        "urgent": "",
+        "active": "",
+        "default": ""
         },
         "persistent-workspaces": {
              "*": 5
@@ -35,8 +35,6 @@
             "(.*) Microsoft Teams": "$1"
         },
         "separate-outputs": true
-
-
     },
 
     // System tray
@@ -48,67 +46,35 @@
    // Clock
     "clock": {
         "format": "{:%H:%M %a}",
-        "on-click": "",
-        "tooltip": false
-    },
-
-
-    // System
-    "custom/system": {
-        "format": "",
         "tooltip": false
     },
 
     // CPU
     "cpu": {
-        "format": "   {usage}%   ",
+        "format": "   {usage}%  ",
         "on-click": "kitty -e btop"
     },
 
     // Memory
     "memory": {
-        "format": "   {}%   ",
+        "format": "   {}%  ",
         "on-click": "kitty -e btop"
     },
 
-    // Harddisc space used
-    "disk": {
-        "interval": 30,
-        "format": "D {percentage_used}% ",
-        "path": "/",
-        "on-click": "kitty -e htop"
-    }, 
-
+    // Language
     "hyprland/language": {
         "format": "{short}"
     },
 
-    // Group Hardware
-    "group/hardware": {
-        "orientation": "inherit",
-        "drawer": {
-            "transition-duration": 300,
-            "children-class": "not-memory",
-            "transition-left-to-right": false
-        },        
-        "modules": [
-            "custom/system",
-        // "disk",
-            "cpu",
-            "memory"
-        //  "hyprland/language"
-        ]
-    },
-    
     // Network
     "network": {
         "format": "{ifname}",
-        "format-wifi": "  {signalStrength}%",
+        "format-wifi": "   {signalStrength}%",
         "format-ethernet": "  {ipaddr}",
         "format-disconnected": "Not connected", //An empty format will hide the module.
         "tooltip-format": " {ifname} via {gwaddri}",
-        "tooltip-format-wifi": "   {essid} ({signalStrength}%)",
-        "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
+        "tooltip-format-wifi": "  {essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": " {ifname} ({ipaddr}/{cidr})",
         "tooltip-format-disconnected": "Disconnected",
         "max-length": 50,
         "on-click": "kitty -e nmtui",
@@ -138,9 +104,10 @@
     // Power 
     
     "custom/power": {
-        "format" : "⏻ ",
-    "tooltip": false,
-    "on-click": "wlogout",
+        "format" : "⏻",
+        "tooltip": false,
+        "on-click": "wlogout",
+        "on-click-right": "hyprlock"        
     },
 
   // backlight:
@@ -173,7 +140,7 @@
         "format-bluetooth": "{volume}%  {icon} {format_source}",
         "format-bluetooth-muted": "  {icon} {format_source}",
         "format-muted": "  {format_source}",
-        "format-source": "{volume}% ",
+        "format-source": "{volume}%",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
@@ -182,44 +149,9 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", " ", " "]
+            "default": [" ", " ", " "]
         },
         "on-click": "pavucontrol"
-    },
-
-
-    // PlayerPause
-    "custom/playerpause": {
-        "format": "⏯︎",
-        "on-click": "playerctl play-pause",
-        "tooltip": false,
-
-    // WaybarMedia
-    },
-    "modules-center": ["custom/waybar-media"],
-    "custom/waybar-media": {
-        "return-type": "json",
-        "exec": "~/.config/waybar/scripts/waybar-media.py status",
-        "on-click": "~/.config/waybar/scripts/waybar-media.py playpause",
-        "on-scroll-up": "~/.config/waybar/scripts/waybar-media.py previous",
-        "on-scroll-down": "~/.config/waybar/scripts/waybar-media.py next",
-       "escape": true
-    },
-
-    // PlayerNext
-    "custom/playernext": {
-        "format": "⏵︎",
-        "on-click": "playerctl next",
-        "tooltip": false,
-
-    },
-
-    // PlayerPrevious
-    "custom/playerprevious": {
-        "format": "⏴︎",
-        "on-click": "playerctl previous",
-        "tooltip": false,
-
     },
 
     // Bluetooth
@@ -229,24 +161,6 @@
         "interval": 30,
         "on-click": "blueman-manager",
         "format-no-controller": ""
-    },
-
-    // Other
-    "user": {
-        "format": "{user}",
-        "interval": 60,
-        "icon": false,
-    },
-    
-    // Idle Inhibator
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "tooltip": true,
-        "format-icons":{
-            "activated": "",
-            "deactivated": ""
-        },
-        "on-click-right": "hyprlock"        
     }
 
 }
